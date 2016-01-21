@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'creedbot' then -- Put everything you like :)
+  if matches[1]:lower() == 'telecat' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /creedbot ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /telecat ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -138,11 +138,11 @@ local function run(msg, matches)
 end
 return {
   patterns = {
-    "^[!/]([Ss]tats)$",
-    "^[!/]([Ss]tatslist)$",
-    "^[!/]([Ss]tats) (group) (%d+)",
-    "^[!/]([Ss]tats) (tcreedbot)",-- Put everything you like :)
-		"^[!/]([Cc]reedbot)"-- Put everything you like :)
+    "^[!/,()$#@?><\]([Ss]tats)$",
+    "^[!/,()$#@?><\]([Ss]tatslist)$",
+    "^[!/,()$#@?><\]([Ss]tats) (group) (%d+)",
+    "^[!/,()$#@?><\]([Ss]tats) (Telecat)",-- Put everything you like :)
+		"^[!/]([Tt]elecat)"-- Put everything you like :)
     }, 
   run = run
 }
