@@ -20,7 +20,7 @@ return {
   usage = {
     "/info (@user) : get id by username", },
   patterns = {
-    "^[!/]info (.*)$",
+    "^[!/,()$#@?><\]info (.*)$",
   }, 
   run = run,
   moderation = true 
