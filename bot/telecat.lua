@@ -260,6 +260,89 @@ function create_config( )
 
 !kick <username,id>
 اخراج افراد همچنین می توان ریپلای اخراج کنید
+
+!ban <username,id>
+بن کردن همچنین می توان با ریپلای بن کرد
+
+!unban <username,id>
+در آوردن از بن همچنین با ریپلای هم میتوان از بن خارج کرد
+
+!who
+لیست اعضا
+
+!modlist
+لیست مدیرها
+
+!promote <username>
+مدیر کردن افراد در گروه
+
+!demote <username>
+خارجی کردن افراد از مدیریت
+
+!kickme
+اخراج شدن شما از گروه
+
+!about
+درباره گروه
+
+!setphoto
+گذاشتن عکس برای گروه
+
+!setname <name>
+تغییر نام گروه
+
+!rules
+قوانین گروه
+
+!id
+ایدی گروه
+
+!help
+راهنمای دستورات
+
+!lock <member,name,bots,leave
+قفل کردن اعضا نام ربات و لفت
+
+!unlock <member,name,bots,leave>
+باز کردن قفل اعضا نام ربات و لفت
+
+!set rules <text>
+تغییر قوانین گروه
+
+!set about <text>
+تغییر موضوع گروه
+
+!setting
+مشاهده تنظیمات گروه
+
+!newlink
+ساخت لینک جدید
+
+!link
+دریافت لینک
+
+!owner
+مشاهده صاحب گروه
+
+!setowner <id>
+تغغیر صاحب گروه
+
+!setflood <value>
+حساسیب اسپو از 5 تا20
+
+!clean <member,modlist.rules,about>
+پاک کردن ممبر مدیران قوانین موضوع
+
+!res @username
+گرفتن ایدی توسط یوزر نیم
+
+!banlist
+لیست بن شدگان
+توجه:
+شما به هیچ عوان نمیتوانید رباتو  با ایدی یا شماره در گروه ادد کید
+
+
+!
 ]]
 
   }
